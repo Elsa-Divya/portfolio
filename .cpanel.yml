@@ -3,9 +3,4 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home2/elsaagne/public_html/
     - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp/css css/bootstrap-material.min.css $DEPLOYPATH
-    - /bin/cp css/style.css $DEPLOYPATH
-    - /bin/cp js/bootstrap-material.js $DEPLOYPATH
-    - /bin/cp js/popper.js $DEPLOYPATH
-    - /bin/cp js/slim.min.js $DEPLOYPATH
-    - /bin/cp img/* $DEPLOYPATH
+    - /bin/cp css/bootstrap-material.min.css $DEPLOYPATH/css
