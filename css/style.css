@@ -1,3 +1,81 @@
 .primary{
-    background: #F2356F;
+    background: #F9AA33;
+}
+
+.secondary{
+    background: #232F34;
+}
+.default{
+    background: #707070;
+}
+
+.text-primary{
+ color: #F9AA33 !important
+}
+
+.text-secondary{
+    color: #232F34;
+}
+
+.rounded-btn{
+    border-radius: 25px;
+}
+
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    background-image: linear-gradient(#0A101F,#091224);
+}
+
+#sidebar {
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    z-index: 999;
+    background: #F9AA33;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+#content{
+    background-image: url("../img/backgroundTest.png");
+    width: 100%;
+    height: 100vh;
+    margin-left: 250px;
+    /* position: fixed; */
+    padding: 5%;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain
+    
+}
+
+.btn-primary{
+    background: #F9AA33;
+}
+.btn-outline.btn-primary{
+    color: #F9AA33 !important;
+    background: #091224;
+    border: 3px solid #F9AA33;
+}
+
+.btn-raised.btn-primary{
+    background: #F9AA33;
+    color: #fff !important;
+    border: 3px solid #F9AA33;
+}
+.active{
+    border-left: 12px solid #232F34;
+}
+ul>li>a:hover{
+    text-decoration: none;
+   
+}
+
+
+.box{
+    height: 100vh;
 }
