@@ -67,9 +67,7 @@
     color: #fff !important;
     border: 3px solid #F9AA33;
 }
-.active{
-    border-left: 12px solid #232F34;
-}
+
 ul>li>a:hover{
     text-decoration: none;
    
@@ -153,10 +151,7 @@ ul>li>a:hover{
         margin-left: 0px;
         margin-top: 60px;
     }
-    .active{
-        border-bottom: 5px solid #232F34;
-        border-left: 0px;
-    }
+   
     
     
    
@@ -167,6 +162,10 @@ ul>li>a:hover{
     #content{
         margin-left: 250px;
     }
+    .active{
+        border-left: 12px solid #232F34;
+        border-bottom: 0px;
+    }
     
 } 
 
@@ -174,6 +173,10 @@ ul>li>a:hover{
 @media only screen and (min-width: 1200px) {
     #content{
         margin-left: 250px;
+    }
+    .active{
+        border-left: 12px solid #232F34;
+        border-bottom: 0px;
     }
     
 }
