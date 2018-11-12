@@ -1,6 +1,7 @@
 
 
 $(document).ready(function(){
+    
     $("#sidebar li").click(function(){
         $(".active").removeClass("active");
         $(this).addClass("active");
@@ -15,12 +16,19 @@ $(document).ready(function(){
         $(this).toggleClass("slideInUp");
     });
 
-   var skillsprogressbar = $(".progress-bar-striped");
-   $.each(skillsprogressbar,function(index,bar){
-       var actualValue = $(this).attr("style").split(":")[1].split("%")[0];
-       var initialValue = "0";
+    var images = ["img/dance.png","img/work.png","img/painting.png"];
+   
+    var i = 0;
+    setInterval(function(){
+        
+       $("#slideShow").attr("src",images[i]);
        
        
-       
-   })
+       i++;
+       if(i==images.length){
+           i = 0;
+       }
+    },2000)
+
+    
 })
