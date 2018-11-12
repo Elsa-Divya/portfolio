@@ -22,7 +22,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
   <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.5.0/css/all.css' integrity='sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU'
     crossorigin='anonymous'>
-
+  <link rel="stylesheet" href="css/hover/css/hover-min.css">
   <link rel="stylesheet" href="css/style.css">
   <script>
     new WOW().init();
@@ -126,12 +126,12 @@
       </div>
 
 
-      <div class="box" id="about">
+      <div class="box wow fadeIn" id="about">
         <div class="row">
           <div class="col-xs-6 col-sm-6 col-md-8 col-lg-8">
             <h1 class="wow fadeIn" data-wow-duration="3s">About
               <span class="text-primary">me</span>
-             
+
             </h1>
             <hr>
             <h5 class="wow lightSpeedIn" data-wow-duration="5s">
@@ -139,9 +139,10 @@
               <span>
                 <i class="fa fa-heart wow pulse text-danger" data-wow-offset="10" data-wow-iteration="10"></i> India.</span>
             </h5>
-            
+
             <p class="wow fadeIn" data-wow-duration="5s">I love turning complex data into beautiful,simple design.I specialise in building applications specific to business
-              needs of client.I have done work in <span class="text-primary">web app development</span> ,
+              needs of client.I have done work in
+              <span class="text-primary">web app development</span> ,
               <span class="text-primary">hybrid apps</span> & little bit of
               <span class="text-primary">backed development</span>.
               <br>
@@ -221,13 +222,17 @@
               </div>
 
             </div>
-            
-           
+
+
             <div class="d-flex">
-              <div><p>Want to know more about me ?</p></div>
-              <div> <a href="https://elsaagnes.com/updated_Resume.docx">
-                <button class="btn btn-sm rounded-btn btn-outline btn-primary">Learn more</button>
-              </a></div>
+              <div>
+                <p>Want to know more about me ?</p>
+              </div>
+              <div>
+                <a href="https://elsaagnes.com/updated_Resume.docx">
+                  <button class="btn btn-sm rounded-btn btn-outline btn-primary">Learn more</button>
+                </a>
+              </div>
             </div>
           </div>
           <div class="col-12">
@@ -236,22 +241,207 @@
         </div>
       </div>
 
-      <div class="box wow fadeIn" data-wow-duration="3s" id="work">
+      <div class="box wow fadeIn" data-wow-duration="3s" id="project">
         <div class="row">
+          <div class="col-12">
+            <h1>My
+              <span class="text-primary">Projects</span>
+            </h1>
+            <hr>
+            <div class="card-deck" id="project-list">
+              <div class="card hvr-float-shadow">
+                <img class="card-img-top  mx-auto d-block hvr-grow" style="width:50%" src="img/perpule.png" alt="">
+                <div class="card-body">
+                  <h4 class="card-title text-center">
+                    <span class="text-primary">D</span>ashboard</h4>
+                  <p class="card-text">Designed to help businesses manage many of the following business processes: customer data, customer interaction,access
+                    business information,customer support,tech support</p>
 
+                </div>
+                <a href="https://elsaagnes.com/updated_Resume.docx" class="text-dark mx-2 my-1 ">
+                  <u>Learn more..</u>
+                </a>
+                <div class="card-footer">
+                  <span class="badge badge-dark">AngularJs</span>
+                  <span class="badge badge-dark">jQuery</span>
+                  <span class="badge badge-dark">angular-chart.js</span>
+                </div>
+              </div>
+
+              <div class="card hvr-float-shadow">
+                <img class="card-img-top  mx-auto d-block hvr-grow" style="width:50%" src="img/perpule.png" alt="company_logo">
+                <div class="card-body">
+                  <h4 class="card-title text-center">
+                    <span class="text-primary">P</span>OS App</h4>
+                  <p class="card-text">A complete retail management system to automate and handle all sales of the business across all the platform.</p>
+
+                </div>
+                <a href="https://elsaagnes.com/updated_Resume.docx" class="text-dark mx-2 my-1 ">
+                  <u>Learn more..</u>
+                </a>
+                <div class="card-footer">
+                  <span class="badge badge-dark">Angular 5</span>
+                  <span class="badge badge-dark">Ionic</span>
+                </div>
+              </div>
+
+              <div class="card hvr-float-shadow">
+                <img class="card-img-top  mx-auto d-block hvr-grow" style="width:50%" src="img/perpule.png" alt="">
+                <div class="card-body">
+                  <h4 class="card-title text-center">
+                    <span class="text-primary">C</span>atalogue Management App</h4>
+                  <p class="card-text">Product mangement system that provide platform to upload products,monitor inventory,track orders.</p>
+
+                </div>
+                <a href="https://elsaagnes.com/updated_Resume.docx" class="text-dark mx-2 my-1 ">
+                  <u>Learn more..</u>
+                </a>
+                <div class="card-footer">
+                  <span class="badge badge-dark">Angular 5</span>
+                  <span class="badge badge-dark">Ionic</span>
+                </div>
+              </div>
+
+            </div>
+          </div>
 
         </div>
       </div>
 
       <div class="box wow fadeIn" data-wow-duration="3s" id="contact">
+        <div class="row">
+
+          <div class="col-12 mx-0">
+            <h1 class="h1-responsive text-white font-weight-bold my-4">Contact
+              <span class="text-primary">Me</span>
+              &nbsp;<img id="chat" src="img/chat1.png" class="img-fluid" alt="" style="width: 1em;">
+            </h1>
+            <!--Section description-->
+
+            <p class="text-primary"> I'd love to hear from you! Find me on
+              <a href="https://www.facebook.com/Elsa.gnes" target="_blank" class="text-white">Facebook</a>,
+              <a href="https://www.linkedin.com/in/elsa-agnes-21476b131" target="_blank" class="text-white">Instagram</a>,
+              <a href="" class="text-white">LinkedIn</a> or
+              <a href="https://github.com/Elsa-Divya" target="_blank" class="text-white">GitHub</a>.</p>
+
+            <div class="row">
+
+              <!--Grid column-->
+              <div class="col-md-9 mb-md-0 mb-5">
+                <form id="contact-form" name="contact-form" method="POST">
+
+                  <!--Grid row-->
+                  <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                      <div class="md-form mb-0">
+                        <input type="text" id="name" name="name" class="form-control">
+                        <label for="name" class="text-white">Your name</label>
+                      </div>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                      <div class="md-form mb-0">
+                        <input type="text" id="email" name="email" class="form-control">
+                        <label for="email" class="text-white">Your email</label>
+                      </div>
+                    </div>
+                    <!--Grid column-->
+
+                  </div>
+                  <!--Grid row-->
+
+                  <!--Grid row-->
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="md-form mb-0">
+                        <input type="text" id="subject" name="subject" class="form-control">
+                        <label for="subject" class="text-white">Subject</label>
+                      </div>
+                    </div>
+                  </div>
+                  <!--Grid row-->
+
+                  <!--Grid row-->
+                  <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-12">
+
+                      <div class="md-form">
+                        <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                        <label for="message" class="text-white">Your message</label>
+                      </div>
+
+                    </div>
+                  </div>
+                  <!--Grid row-->
+
+                </form>
+
+                <div class="text-center text-md-left">
+                  <a class="btn btn-primary btn-raised rounded-btn btn-block hvr-forward" onclick="sendMail()">Send</a>
+                </div>
+                <div class="col-12" id="socialIcons">
+                  <a href="https://www.facebook.com/Elsa.gnes" target="_blank">
+                    <i class='fab fa-facebook'></i>
+                  </a>
+                  <a href="https://www.instagram.com/divyaelsaagnes/" target="_blank">
+                    <i class='fab fa-instagram'></i>
+                  </a>
+                  <a href="https://www.linkedin.com/in/elsa-agnes-21476b131" target="_blank">
+                    <i class='fab fa-linkedin'></i>
+                  </a>
+                  <a href="https://github.com/Elsa-Divya" target="_blank">
+                    <i class='fab fa-github'></i>
+                  </a>
+                </div>
+
+                <div class="status"></div>
+              </div>
+
+              <!--Grid column-->
+
+              <!--Grid column-->
+              <div class="col-md-3 text-center">
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <i class="text-white fa fa-map-marker fa-2x"></i>
+                    <p class="text-primary">Bengaluru,Karnataka,India</p>
+                  </li>
+
+
+                  <li>
+                    <i class="text-white fa fa-envelope mt-4 fa-2x"></i>
+                    <p class="text-primary">divyaelsaagnes@gmail.com</p>
+                  </li>
+                </ul>
+              </div>
+              <!--Grid column-->
+
+
+            </div>
+
+
+            <!--Section: Contact v.2-->
+          </div>
+          
+        </div>
         
       </div>
+
+
 
       <!-- Nav Tab-->
 
 
     </div>
+    
   </div>
+
 
 </body>
 
