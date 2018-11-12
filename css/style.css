@@ -25,7 +25,7 @@
 .wrapper {
     display: flex;
     width: 100%;
-    background-image: linear-gradient(#0A101F,#091224);
+    /* background-image: linear-gradient(#0A101F,#091224); */
 }
 
 #sidebar {
@@ -43,7 +43,7 @@
 #content{
     /* background-image: url("../img/backgroundTest.png"); */
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     margin-left: 0px;
     /* position: fixed; */
     /* padding: 5%; */
@@ -75,7 +75,7 @@ ul>li>a:hover{
 
 
 .box{
-    height: 100vh;
+    min-height: 800px;
     
      width: 100%;
  
@@ -87,6 +87,7 @@ ul>li>a:hover{
    
 }
 #home{
+    background-color: #091224;
     background-image: url("../img/backgroundTest.png");
 }
 .fab {
@@ -190,12 +191,38 @@ ul>li>a:hover{
   .skill-text{
       margin-top: 25px;
   }
+  #contact{
+    display: flex;
+    width: 100%;
+    background-image: linear-gradient(#0A101F,#091224);
+  }
+  #project-list > .card{
+      border:5px solid #0A101F;
+      border-radius: 25px;
+      box-shadow: 2px 2px 5px 2px #86827e;
+  }
+  #project-list>.card:hover{
+    box-shadow: 2px 2px 5px 2px #F9AA33;
+ 
+   
+  }
+  .card-footer{
+      background : #F9AA33;
+      border-radius: 0px 0px 20px 20px !important;
+  }
+
+  footer{
+      height: 100px;
+  }
+  #chat{
+      -webkit-animation: pulse 1s infinite;
+  }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 
     #content{
         margin-left: 0px;
-        margin-top: 60px;
+        
     }
     .active{
         border-bottom: 5px solid #232F34;
@@ -207,7 +234,7 @@ ul>li>a:hover{
 @media only screen and (min-width: 600px) {
     #content{
         margin-left: 0px;
-        margin-top: 60px;
+        
     }
     .active{
         border-bottom: 5px solid #232F34;
@@ -222,7 +249,7 @@ ul>li>a:hover{
 @media only screen and (min-width: 768px) {
     #content{
         margin-left: 0px;
-        margin-top: 60px;
+        
     }
    
     
