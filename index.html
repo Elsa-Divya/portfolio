@@ -71,10 +71,10 @@
     </nav>
 
     <!-- Page Content -->
-    <div id="content" data-spy="scroll" data-target="#sidebar" data-offset="50">
+    <div id="content">
 
-      <div class="box wow" data-wow-duration="3s" id="home">
-        <div class="row">
+      <section class="box wow" data-wow-duration="3s" id="home">
+        <div class="row pt-5">
           <div class="col-12 wow slideInUp" data-wow-duration="3s">
             <h1 class="text-white">I'M
               <span class="text-primary wow zoomIn" data-wow-duration="6s">DIVYA</span>
@@ -123,22 +123,40 @@
 
 
         </div>
-      </div>
+      </section>
 
 
-      <div class="box wow fadeIn" id="about">
+      <section class="box wow fadeIn" id="about">
+
         <div class="row">
-          <div class="col-xs-6 col-sm-6 col-md-8 col-lg-8">
-            <h1 class="wow fadeIn" data-wow-duration="3s">About
-              <span class="text-primary">me</span>
-
+          <div class="col-12">
+            <!-- Section heading -->
+            <h1 class="h1-responsive font-weight-bold my-5 wow slideInUp" data-wow-duration="2s">About
+              <span class="text-warning">me</span>
             </h1>
-            <hr>
-            <h5 class="wow lightSpeedIn" data-wow-duration="5s">
+            <hr class="underline"></hr>
+            <!-- Section description -->
+          </div>
+
+          <div class="col-sm-12 col-md-4 col-lg-4 align-items-strech wow slideInUp" data-wow-duration="2s">
+            <div class="d-flex justify-content-around">
+              <div>
+                <img src="img/icons8-internet-100.png" class="mx-auto d-block" alt="">
+                <p>UI Development</p>
+              </div>
+              <div>
+                <img src="img/icons8-web-100.png" class="mx-auto d-block" alt="">
+                <p>Backend Development</p>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-sm-12 col-md-8 col-lg-8 wow slideInUp" data-wow-duration="2s">
+            <h3 class="wow fadeIn" data-wow-duration="4s">
               <span class="text-primary"> I’m UI developer based in </span>
               <span>
                 <i class="fa fa-heart wow pulse text-danger" data-wow-offset="10" data-wow-iteration="10"></i> India.</span>
-            </h5>
+            </h3>
 
             <p class="wow fadeIn" data-wow-duration="5s">I love turning complex data into beautiful,simple design.I specialise in building applications specific to business
               needs of client.I have done work in
@@ -149,16 +167,33 @@
               <br> When I am not coding you’ll find me
               <span class="text-primary">painting, dancing or hanging out with friends.</span>
             </p>
+            <p>
+              <a href="https://www.facebook.com/Elsa.gnes" target="_blank">
+                <i class='fab fa-facebook'></i>
+              </a>
+              <a href="https://www.instagram.com/divyaelsaagnes/" target="_blank">
+                <i class='fab fa-instagram'></i>
+              </a>
+              <a href="https://www.linkedin.com/in/elsa-agnes-21476b131" target="_blank">
+                <i class='fab fa-linkedin'></i>
+              </a>
+              <a href="https://github.com/Elsa-Divya" target="_blank">
+                <i class='fab fa-github'></i>
+              </a>
+            </p>
           </div>
-          <div class="col-sm-6 col-xs-6 col-md-4 col-lg-4">
-            <img id="slideShow" src="img/work.png" class="img-fluid wow fadeIn" data-wow-duration="5s" style="width: 80%" alt="">
-          </div>
-          <div class="col-sm-12 col-md-12 col-lg-12 my-5 wow fadeIn" data-wow-duration="7s">
-            <h1>My
-              <span class="text-primary">skills</span>
-            </h1>
-            <hr>
+        </div>
 
+        <!-- Section heading -->
+        <h1 class="h1-responsive font-weight-bold my-5 text-dark wow fadeIn" data-wow-duration="2s">My
+          <span class="text-warning">Skills</span>
+        </h1>
+        <hr class="underline"></hr>
+        <!-- Section description -->
+
+        <div class="row d-flex justify-content-center wow slideInUp" data-wow-duration="3s">
+
+          <div class="col-sm-12 col-md-12 col-lg-12">
             <div class="progress" style="height: 30px;">
               <div class="progress-bar primary" style="width:100px">
                 HTML
@@ -168,7 +203,7 @@
               </div>
 
             </div>
-            <div class="progress my-3" style="height: 30px;">
+            <div class="progress my-4" style="height: 30px;">
               <div class="progress-bar primary" style="width:100px">
                 CSS
               </div>
@@ -177,7 +212,7 @@
               </div>
 
             </div>
-            <div class="progress my-3" style="height: 30px;">
+            <div class="progress my-4" style="height: 30px;">
               <div class="progress-bar primary" style="width:100px">
                 JavaScript
               </div>
@@ -186,7 +221,7 @@
               </div>
 
             </div>
-            <div class="progress my-3" style="height: 30px;">
+            <div class="progress my-4" style="height: 30px;">
               <div class="progress-bar primary" style="width:100px">
                 Angular
               </div>
@@ -195,7 +230,7 @@
               </div>
 
             </div>
-            <div class="progress my-3" style="height: 30px;">
+            <div class="progress my-4" style="height: 30px;">
               <div class="progress-bar primary" style="width:100px">
                 Node.js
               </div>
@@ -204,7 +239,7 @@
               </div>
 
             </div>
-            <div class="progress my-3" style="height: 30px;">
+            <div class="progress my-4" style="height: 30px;">
               <div class="progress-bar primary" style="width:100px">
                 Ionic
               </div>
@@ -213,7 +248,7 @@
               </div>
 
             </div>
-            <div class="progress my-3" style="height: 30px;">
+            <div class="progress my-4" style="height: 30px;">
               <div class="progress-bar primary" style="width:100px">
                 J2EE
               </div>
@@ -222,99 +257,216 @@
               </div>
 
             </div>
-
-
-            <div class="d-flex">
-              <div>
-                <p>Want to know more about me ?</p>
-              </div>
-              <div>
-                <a href="https://elsaagnes.com/updated_Resume.docx">
-                  <button class="btn btn-sm rounded-btn btn-outline btn-primary">Learn more</button>
-                </a>
-              </div>
-            </div>
           </div>
-          <div class="col-12">
 
-          </div>
         </div>
-      </div>
+      </section>
 
-      <div class="box wow fadeIn" data-wow-duration="3s" id="project">
-        <div class="row">
-          <div class="col-12">
-            <h1>My
-              <span class="text-primary">Projects</span>
-            </h1>
-            <hr>
-            <div class="card-deck" id="project-list">
-              <div class="card hvr-float-shadow">
-                <img class="card-img-top  mx-auto d-block hvr-grow" style="width:50%" src="img/perpule.png" alt="">
+      <section class="box wow fadeIn" data-wow-duration="3s" id="project">
+        <!-- Section heading -->
+        <h1 class="h1-responsive font-weight-bold my-5">My
+          <span class="text-warning">projects</span>
+        </h1>
+        <hr class="underline"></hr>
+        <!-- Section description -->
+        <div class="d-flex justify-content-around">
+          <ul class="nav nav-pills pills-dark mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" id="pills-web-tab" data-toggle="pill" href="#pills-web" role="tab" aria-controls="pills-web" aria-selected="true">Web</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="pills-app-tab" data-toggle="pill" href="#pills-app" role="tab" aria-controls="pills-app" aria-selected="false">App</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="pills-all-tab" data-toggle="pill" href="#pills-all" role="tab" aria-controls="pills-all" aria-selected="false">All</a>
+            </li>
+          </ul>
+        </div>
+        <div class="tab-content pt-2 pl-1 wow slideInUp" data-wow-duration="3s" id="pills-tabContent">
+          <div class="tab-pane fade show active" id="pills-web" role="tabpanel" aria-labelledby="pills-web-tab">
+            <div class="row d-flex justify-content-around">
+
+              <!-- Grid column -->
+              <div class="col-md-6 col-xl-5 mb-4 align-items-stretch bg-white shadow-lg">
+                <!--Featured image-->
+                <div class="view overlay rounded z-depth-2">
+                  <img src="img/adminlte-2.4-showcase2.png" class="img-fluid shadow-lg" alt="Sample project image">
+                  <a>
+                    <div class="mask rgba-white-slight"></div>
+                  </a>
+                </div>
+                <!--Excerpt-->
                 <div class="card-body">
-                  <h4 class="card-title text-center">
-                    <span class="text-primary">D</span>ashboard</h4>
-                  <p class="card-text">Designed to help businesses manage many of the following business processes: customer data, customer interaction,access
+                  <h5 class="font-weight-bold text-warning mt-2 mb-3">Web App</h5>
+                  <h4 class="font-weight-bold mb-3">
+                    <span class="text-warning">A</span>dmin Dashboard</h4>
+                  <p>Designed to help businesses manage many of the following business processes: customer data, customer interaction,access
                     business information,customer support,tech support</p>
-
-                </div>
-                <a href="https://elsaagnes.com/updated_Resume.docx" class="text-dark mx-2 my-1 ">
-                  <u>Learn more..</u>
-                </a>
-                <div class="card-footer">
-                  <span class="badge badge-dark">AngularJs</span>
-                  <span class="badge badge-dark">jQuery</span>
-                  <span class="badge badge-dark">angular-chart.js</span>
+                  <span class="badge badge-dark">AngularJS</span>
+                  <span class="badge badge-dark">Jquery</span>
+                  <span class="badge badge-dark">Bootstrap</span>
+                  <br>
+                  <a href="https://elsaagnes.com/updated_Resume.docx"> Learn more..</a>
                 </div>
               </div>
+              <!-- Grid column -->
 
-              <div class="card hvr-float-shadow">
-                <img class="card-img-top  mx-auto d-block hvr-grow" style="width:50%" src="img/perpule.png" alt="company_logo">
-                <div class="card-body">
-                  <h4 class="card-title text-center">
-                    <span class="text-primary">P</span>OS App</h4>
-                  <p class="card-text">A complete retail management system to automate and handle all sales of the business across all the platform.</p>
-
+              <!-- Grid column -->
+              <div class="col-md-6 col-xl-5 mb-4 align-items-stretch bg-white shadow-lg">
+                <!--Featured image-->
+                <div class="view overlay rounded z-depth-2">
+                  <img src="img/catalogue2.png" class="img-fluid shadow-lg" alt="Sample project image">
+                  <a>
+                    <div class="mask rgba-white-slight"></div>
+                  </a>
                 </div>
-                <a href="https://elsaagnes.com/updated_Resume.docx" class="text-dark mx-2 my-1 ">
-                  <u>Learn more..</u>
-                </a>
-                <div class="card-footer">
+                <!--Excerpt-->
+                <div class="card-body">
+                  <a href="" class="blue-text">
+                    <h5 class="font-weight-bold mt-2 mb-3 text-warning">Web App</h5>
+                  </a>
+                  <h4 class="font-weight-bold mb-3">
+                    <span class="text-warning">C</span>atalogue Management App</h4>
+                  <p>Product mangement system that provide platform to upload products,monitor inventory,track orders.</p>
                   <span class="badge badge-dark">Angular 5</span>
                   <span class="badge badge-dark">Ionic</span>
+
+                  <br>
+                  <a href="https://elsaagnes.com/updated_Resume.docx"> Learn more..</a>
                 </div>
               </div>
+              <!-- Grid column -->
 
-              <div class="card hvr-float-shadow">
-                <img class="card-img-top  mx-auto d-block hvr-grow" style="width:50%" src="img/perpule.png" alt="">
+            </div>
+          </div>
+          <div class="tab-pane fade" id="pills-app" role="tabpanel" aria-labelledby="pills-app-tab">
+            <div class="row d-flex justify-content-around">
+
+              <!-- Grid column -->
+              <div class="col-md-6 col-xl-5 mb-md-0 mb-4 bg-white shadow-lg">
+                <!--Featured image-->
+                <div class="view overlay rounded z-depth-2">
+                  <img src="img/pos.png" class="img-fluid shadow-lg" alt="Sample project image">
+                  <a>
+                    <div class="mask rgba-white-slight"></div>
+                  </a>
+                </div>
+                <!--Excerpt-->
                 <div class="card-body">
-                  <h4 class="card-title text-center">
-                    <span class="text-primary">C</span>atalogue Management App</h4>
-                  <p class="card-text">Product mangement system that provide platform to upload products,monitor inventory,track orders.</p>
-
-                </div>
-                <a href="https://elsaagnes.com/updated_Resume.docx" class="text-dark mx-2 my-1 ">
-                  <u>Learn more..</u>
-                </a>
-                <div class="card-footer">
-                  <span class="badge badge-dark">Angular 5</span>
+                  <a href="" class="blue-text">
+                    <h5 class="font-weight-bold mt-2 mb-3 text-warning">Hybrid App</h5>
+                  </a>
+                  <h4 class="font-weight-bold mb-3">
+                    <span class="text-warning">P</span>OS App</h4>
+                  <p>A complete retail management system to automate and handle all sales of the business across all the platform.</p>
                   <span class="badge badge-dark">Ionic</span>
+                  <span class="badge badge-dark">Angular 5</span>
+                  <br>
+                  <a href="https://elsaagnes.com/updated_Resume.docx">Learn more..</a>
                 </div>
               </div>
+              <!-- Grid column -->
+            </div>
+          </div>
 
+          <div class="tab-pane fade" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab">
+            <div class="row d-flex justify-content-around">
+
+              <!-- Grid column -->
+              <div class="col-md-6 col-xl-5 mb-4 align-items-stretch bg-white shadow-lg">
+                <!--Featured image-->
+                <div class="view overlay rounded z-depth-2">
+                  <img src="img/adminlte-2.4-showcase2.png" class="img-fluid shadow-lg" alt="Sample project image">
+                  <a>
+                    <div class="mask rgba-white-slight"></div>
+                  </a>
+                </div>
+                <!--Excerpt-->
+                <div class="card-body">
+                  <h5 class="font-weight-bold text-warning mt-2 mb-3">Web App</h5>
+                  <h4 class="font-weight-bold mb-3">
+                    <span class="text-warning">A</span>dmin Dashboard</h4>
+                  <p>Designed to help businesses manage many of the following business processes: customer data, customer interaction,access
+                    business information,customer support,tech support</p>
+                  <span class="badge badge-dark"></span>
+                  <span class="badge badge-dark"></span>
+                  <span class="badge badge-dark">AngularJS</span>
+                  <span class="badge badge-dark">Jquery</span>
+                  <span class="badge badge-dark">Bootstrap</span>
+                  <br>
+                  <a href="https://elsaagnes.com/updated_Resume.docx"> Learn more..</a>
+                </div>
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-6 col-xl-5 mb-4 align-items-stretch bg-white shadow-lg">
+                <!--Featured image-->
+                <div class="view overlay rounded z-depth-2">
+                  <img src="img/catalogue2.png" class="img-fluid shadow-lg" alt="Sample project image">
+                  <a>
+                    <div class="mask rgba-white-slight"></div>
+                  </a>
+                </div>
+                <!--Excerpt-->
+                <div class="card-body">
+                  <a href="" class="blue-text">
+                    <h5 class="font-weight-bold mt-2 mb-3 text-warning">Web App</h5>
+                  </a>
+                  <h4 class="font-weight-bold mb-3">
+                    <span class="text-warning">C</span>atalogue Management App</h4>
+                  <p>Product mangement system that provide platform to upload products,monitor inventory,track orders.</p>
+                  <span class="badge badge-dark">AngularJS</span>
+                  <span class="badge badge-dark">Ionic</span>
+
+                  <br>
+                  <a href="https://elsaagnes.com/updated_Resume.docx"> Learn more..</a>
+                </div>
+              </div>
+              <!-- Grid column -->
+
+            </div>
+            <div class="row d-flex justify-content-around">
+
+              <!-- Grid column -->
+              <div class="col-md-6 col-xl-5 mb-md-0 mb-4 bg-white  shadow-lg">
+                <!--Featured image-->
+                <div class="view overlay rounded z-depth-2">
+                  <img src="img/pos.png" class="img-fluid shadow-lg" alt="Sample project image">
+                  <a>
+                    <div class="mask rgba-white-slight"></div>
+                  </a>
+                </div>
+                <!--Excerpt-->
+                <div class="card-body">
+                  <a href="" class="blue-text">
+                    <h5 class="font-weight-bold mt-2 mb-3 text-warning">Hybrid App</h5>
+                  </a>
+                  <h4 class="font-weight-bold mb-3">
+                    <span class="text-warning">P</span>OS App</h4>
+                  <p>A complete retail management system to automate and handle all sales of the business across all the platform.</p>
+                  <span class="badge badge-dark">Ionic</span>
+                  <span class="badge badge-dark">Angular 5</span>
+                  <br>
+                  <a href="https://elsaagnes.com/updated_Resume.docx">Learn more..</a>
+                </div>
+              </div>
+              <!-- Grid column -->
             </div>
           </div>
 
         </div>
-      </div>
 
-      <div class="box wow fadeIn" data-wow-duration="3s" id="contact">
+      </section>
+
+      <section class="box wow fadeIn" data-wow-duration="3s" id="contact">
         <div class="row">
 
           <div class="col-12 mx-0">
             <h1 class="h1-responsive text-white font-weight-bold my-4">Contact
               <span class="text-primary">Me</span>
-              &nbsp;<img id="chat" src="img/chat1.png" class="img-fluid" alt="" style="width: 1em;">
+              &nbsp;
+              <img id="chat" src="img/chat1.png" class="img-fluid" alt="" style="width: 1em;">
             </h1>
             <!--Section description-->
 
@@ -428,10 +580,10 @@
 
             <!--Section: Contact v.2-->
           </div>
-          
+
         </div>
-        
-      </div>
+
+      </section>
 
 
 
@@ -439,12 +591,14 @@
 
 
     </div>
-    
+
   </div>
 
 
 </body>
 
+<script>
 
+</script>
 
 </html>

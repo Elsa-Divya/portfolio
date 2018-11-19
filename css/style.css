@@ -1,3 +1,10 @@
+body, html {
+    height: 100%;
+}
+
+section {
+    min-height: 100vh;
+}
 .primary{
     background: #F9AA33;
 }
@@ -75,17 +82,18 @@ ul>li>a:hover{
 
 
 .box{
-    min-height: 800px;
+
     
      width: 100%;
  
      /* position: fixed; */
-     padding: 5%;
+     padding-left: 5%;
       background-repeat: no-repeat;
      background-position: right;
      background-size: contain ;
    
 }
+
 #home{
     background-color: #091224;
     background-image: url("../img/backgroundTest.png");
@@ -196,16 +204,7 @@ ul>li>a:hover{
     width: 100%;
     background-image: linear-gradient(#0A101F,#091224);
   }
-  #project-list > .card{
-      border:5px solid #0A101F;
-      border-radius: 25px;
-      box-shadow: 2px 2px 5px 2px #86827e;
-  }
-  #project-list>.card:hover{
-    box-shadow: 2px 2px 5px 2px #F9AA33;
- 
-   
-  }
+
   .card-footer{
       background : #F9AA33;
       border-radius: 0px 0px 20px 20px !important;
@@ -217,6 +216,27 @@ ul>li>a:hover{
   #chat{
       -webkit-animation: pulse 1s infinite;
   }
+  .btn-rounded{
+      border-radius: 25px;  
+  }
+  .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+      background:#F9AA33;
+  }
+  .nav-pills .nav-item a{
+      color: #0A101F;
+  }
+
+  #project{
+    background-image: linear-gradient(to top left, #0a111e 50%, white 50%);
+  }
+  #about{
+    background: linear-gradient(17deg,#fffffd 50%,#09121f 50%);
+    color: white;
+  }
+  .underline{
+    
+  }
+  
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 
@@ -224,10 +244,7 @@ ul>li>a:hover{
         margin-left: 0px;
         
     }
-    .active{
-        border-bottom: 5px solid #232F34;
-        border-left: 0px;
-    }
+
 } 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -236,12 +253,7 @@ ul>li>a:hover{
         margin-left: 0px;
         
     }
-    .active{
-        border-bottom: 5px solid #232F34;
-        border-left: 0px;
-    }
-    
-   
+
    
 } 
 
@@ -262,7 +274,7 @@ ul>li>a:hover{
     #content{
         margin-left: 250px;
     }
-    .active{
+    #sidebar .active{
         border-left: 12px solid #232F34;
         border-bottom: 0px;
     }
@@ -274,7 +286,7 @@ ul>li>a:hover{
     #content{
         margin-left: 250px;
     }
-    .active{
+    #sidebar .active{
         border-left: 12px solid #232F34;
         border-bottom: 0px;
     }
