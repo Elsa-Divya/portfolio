@@ -6,6 +6,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Elsa</title>
+  <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 
@@ -100,25 +117,25 @@
           <div class="col-12 d-flex mx-auto">
             <div class="wow slideInUp" data-wow-duration="3s">
               <a href="https://elsaagnes.com/updated_Resume.docx">
-                <button type="button" class="btn rounded-btn btn-outline btn-primary">DOWNLOAD CV</button>
+                <button id="download_btn" type="button" class="hvr-float-shadow  btn border-rounded">DOWNLOAD CV</button>
               </a>
             </div>
             <div class="mx-2 wow slideInUp" data-wow-duration="3s">
-              <button type="button" class="btn rounded-btn btn-raised btn-primary">CONTACT ME</button>
+             <a href="#contact"><button id="contact_btn" type="button" class="hvr-float-shadow  btn border-rounded">CONTACT ME</button></a>
             </div>
           </div>
 
-          <div class="col-12" id="socialIcons">
-            <a href="https://www.facebook.com/Elsa.gnes" target="_blank">
+          <!-- <div class="col-12" id="socialIcons">
+            <a class="hvr-icon-bob" href="https://www.facebook.com/Elsa.gnes" target="_blank">
               <i class='fab fa-facebook'></i>
             </a>
-            <a href="https://www.instagram.com/divyaelsaagnes/" target="_blank">
+            <a class="hvr-icon-bob" href="https://www.instagram.com/divyaelsaagnes/" target="_blank">
               <i class='fab fa-instagram'></i>
             </a>
-            <a href="https://www.linkedin.com/in/elsa-agnes-21476b131" target="_blank">
+            <a class="hvr-icon-bob" href="https://www.linkedin.com/in/elsa-agnes-21476b131" target="_blank">
               <i class='fab fa-linkedin'></i>
             </a>
-          </div>
+          </div> -->
 
 
 
@@ -167,17 +184,17 @@
               <br> When I am not coding you’ll find me
               <span class="text-primary">painting, dancing or hanging out with friends.</span>
             </p>
-            <p>
-              <a href="https://www.facebook.com/Elsa.gnes" target="_blank">
+            <p class="socialIcons">
+              <a class="hvr-bob" href="https://www.facebook.com/Elsa.gnes" target="_blank">
                 <i class='fab fa-facebook'></i>
               </a>
-              <a href="https://www.instagram.com/divyaelsaagnes/" target="_blank">
+              <a class="hvr-bob" href="https://www.instagram.com/divyaelsaagnes/" target="_blank">
                 <i class='fab fa-instagram'></i>
               </a>
-              <a href="https://www.linkedin.com/in/elsa-agnes-21476b131" target="_blank">
+              <a class="hvr-bob" href="https://www.linkedin.com/in/elsa-agnes-21476b131" target="_blank">
                 <i class='fab fa-linkedin'></i>
               </a>
-              <a href="https://github.com/Elsa-Divya" target="_blank">
+              <a class="hvr-bob" href="https://github.com/Elsa-Divya" target="_blank">
                 <i class='fab fa-github'></i>
               </a>
             </p>
@@ -287,10 +304,10 @@
             <div class="row d-flex justify-content-around">
 
               <!-- Grid column -->
-              <div class="col-md-6 col-xl-5 mb-4 align-items-stretch bg-white shadow-lg">
+              <div class="col-md-6 col-xl-5 mb-4 align-items-stretch bg-white border-rounded shadow-lg">
                 <!--Featured image-->
                 <div class="view overlay rounded z-depth-2">
-                  <img src="img/adminlte-2.4-showcase2.png" class="img-fluid shadow-lg" alt="Sample project image">
+                  <img src="img/adminlte-2.4-showcase2.png" class="img-fluid border-rounded shadow-lg" alt="Sample project image">
                   <a>
                     <div class="mask rgba-white-slight"></div>
                   </a>
@@ -306,16 +323,20 @@
                   <span class="badge badge-dark">Jquery</span>
                   <span class="badge badge-dark">Bootstrap</span>
                   <br>
-                  <a href="https://elsaagnes.com/updated_Resume.docx"> Learn more..</a>
+                  <hr>
+                  <center>
+                    <a href="https://elsaagnes.com/updated_Resume.docx" class="btn border-rounded btn-outline-warning waves-effect hvr-forward">Learn More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                  </center>
+                  
                 </div>
               </div>
               <!-- Grid column -->
 
               <!-- Grid column -->
-              <div class="col-md-6 col-xl-5 mb-4 align-items-stretch bg-white shadow-lg">
+              <div class="col-md-6 col-xl-5 mb-4 align-items-stretch border-rounded bg-white shadow-lg">
                 <!--Featured image-->
                 <div class="view overlay rounded z-depth-2">
-                  <img src="img/catalogue2.png" class="img-fluid shadow-lg" alt="Sample project image">
+                  <img src="img/catalogue2.png" class="img-fluid border-rounded shadow-lg" alt="Sample project image">
                   <a>
                     <div class="mask rgba-white-slight"></div>
                   </a>
@@ -331,8 +352,10 @@
                   <span class="badge badge-dark">Angular 5</span>
                   <span class="badge badge-dark">Ionic</span>
 
-                  <br>
-                  <a href="https://elsaagnes.com/updated_Resume.docx"> Learn more..</a>
+                  <hr>
+                  <center>
+                    <a href="https://elsaagnes.com/updated_Resume.docx" class="btn border-rounded btn-outline-warning waves-effect hvr-forward">Learn More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                  </center>
                 </div>
               </div>
               <!-- Grid column -->
@@ -343,10 +366,10 @@
             <div class="row d-flex justify-content-around">
 
               <!-- Grid column -->
-              <div class="col-md-6 col-xl-5 mb-md-0 mb-4 bg-white shadow-lg">
+              <div class="col-md-6 col-xl-5 mb-md-0 mb-4 border-rounded bg-white shadow-lg">
                 <!--Featured image-->
                 <div class="view overlay rounded z-depth-2">
-                  <img src="img/pos.png" class="img-fluid shadow-lg" alt="Sample project image">
+                  <img src="img/pos.png" class="img-fluid border-rounded shadow-lg" alt="Sample project image">
                   <a>
                     <div class="mask rgba-white-slight"></div>
                   </a>
@@ -361,8 +384,10 @@
                   <p>A complete retail management system to automate and handle all sales of the business across all the platform.</p>
                   <span class="badge badge-dark">Ionic</span>
                   <span class="badge badge-dark">Angular 5</span>
-                  <br>
-                  <a href="https://elsaagnes.com/updated_Resume.docx">Learn more..</a>
+                  <hr>
+                  <center>
+                    <a href="https://elsaagnes.com/updated_Resume.docx" class="btn border-rounded btn-outline-warning waves-effect hvr-forward">Learn More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                  </center>
                 </div>
               </div>
               <!-- Grid column -->
@@ -373,10 +398,10 @@
             <div class="row d-flex justify-content-around">
 
               <!-- Grid column -->
-              <div class="col-md-6 col-xl-5 mb-4 align-items-stretch bg-white shadow-lg">
+              <div class="col-md-6 col-xl-5 mb-4 align-items-stretch border-rounded bg-white shadow-lg">
                 <!--Featured image-->
                 <div class="view overlay rounded z-depth-2">
-                  <img src="img/adminlte-2.4-showcase2.png" class="img-fluid shadow-lg" alt="Sample project image">
+                  <img src="img/adminlte-2.4-showcase2.png" class="img-fluid border-rounded shadow-lg" alt="Sample project image">
                   <a>
                     <div class="mask rgba-white-slight"></div>
                   </a>
@@ -393,17 +418,19 @@
                   <span class="badge badge-dark">AngularJS</span>
                   <span class="badge badge-dark">Jquery</span>
                   <span class="badge badge-dark">Bootstrap</span>
-                  <br>
-                  <a href="https://elsaagnes.com/updated_Resume.docx"> Learn more..</a>
+                  <hr>
+                  <center>
+                    <a href="https://elsaagnes.com/updated_Resume.docx" class="btn border-rounded btn-outline-warning waves-effect hvr-forward">Learn More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                  </center>
                 </div>
               </div>
               <!-- Grid column -->
 
               <!-- Grid column -->
-              <div class="col-md-6 col-xl-5 mb-4 align-items-stretch bg-white shadow-lg">
+              <div class="col-md-6 col-xl-5 mb-4 align-items-stretch border-rounded bg-white shadow-lg">
                 <!--Featured image-->
                 <div class="view overlay rounded z-depth-2">
-                  <img src="img/catalogue2.png" class="img-fluid shadow-lg" alt="Sample project image">
+                  <img src="img/catalogue2.png" class="img-fluid border-rounded shadow-lg" alt="Sample project image">
                   <a>
                     <div class="mask rgba-white-slight"></div>
                   </a>
@@ -419,8 +446,10 @@
                   <span class="badge badge-dark">AngularJS</span>
                   <span class="badge badge-dark">Ionic</span>
 
-                  <br>
-                  <a href="https://elsaagnes.com/updated_Resume.docx"> Learn more..</a>
+                  <hr>
+                  <center>
+                    <a href="https://elsaagnes.com/updated_Resume.docx" class="btn border-rounded btn-outline-warning waves-effect hvr-forward">Learn More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                  </center>
                 </div>
               </div>
               <!-- Grid column -->
@@ -429,10 +458,10 @@
             <div class="row d-flex justify-content-around">
 
               <!-- Grid column -->
-              <div class="col-md-6 col-xl-5 mb-md-0 mb-4 bg-white  shadow-lg">
+              <div class="col-md-6 col-xl-5 mb-md-0 mb-4 border-rounded bg-white  shadow-lg">
                 <!--Featured image-->
                 <div class="view overlay rounded z-depth-2">
-                  <img src="img/pos.png" class="img-fluid shadow-lg" alt="Sample project image">
+                  <img src="img/pos.png" class="img-fluid border-rounded shadow-lg" alt="Sample project image">
                   <a>
                     <div class="mask rgba-white-slight"></div>
                   </a>
@@ -447,8 +476,10 @@
                   <p>A complete retail management system to automate and handle all sales of the business across all the platform.</p>
                   <span class="badge badge-dark">Ionic</span>
                   <span class="badge badge-dark">Angular 5</span>
-                  <br>
-                  <a href="https://elsaagnes.com/updated_Resume.docx">Learn more..</a>
+                  <hr>
+                  <center>
+                    <a href="https://elsaagnes.com/updated_Resume.docx" class="btn border-rounded btn-outline-warning waves-effect hvr-forward">Learn More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                  </center>
                 </div>
               </div>
               <!-- Grid column -->
@@ -537,17 +568,17 @@
                 <div class="text-center text-md-left">
                   <a class="btn btn-primary btn-raised rounded-btn btn-block hvr-forward" onclick="sendMail()">Send</a>
                 </div>
-                <div class="col-12" id="socialIcons">
-                  <a href="https://www.facebook.com/Elsa.gnes" target="_blank">
+                <div class="col-12 socialIcons" id="">
+                  <a class="hvr-bob" href="https://www.facebook.com/Elsa.gnes" target="_blank">
                     <i class='fab fa-facebook'></i>
                   </a>
-                  <a href="https://www.instagram.com/divyaelsaagnes/" target="_blank">
+                  <a  class="hvr-bob" href="https://www.instagram.com/divyaelsaagnes/" target="_blank">
                     <i class='fab fa-instagram'></i>
                   </a>
-                  <a href="https://www.linkedin.com/in/elsa-agnes-21476b131" target="_blank">
+                  <a class="hvr-bob" href="https://www.linkedin.com/in/elsa-agnes-21476b131" target="_blank">
                     <i class='fab fa-linkedin'></i>
                   </a>
-                  <a href="https://github.com/Elsa-Divya" target="_blank">
+                  <a class="hvr-bob" href="https://github.com/Elsa-Divya" target="_blank">
                     <i class='fab fa-github'></i>
                   </a>
                 </div>
