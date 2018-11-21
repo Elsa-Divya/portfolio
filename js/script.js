@@ -2,6 +2,17 @@
 
 $(document).ready(function(){
 
+     
+  var name =  $("#contact-form #name").val();
+  var fromEmail = $("#contact-form #email").val();;
+  var toMail = 'divyaelsaagnes@gmail.com';
+  var subject = $("#contact-form #subject").val();
+  var msg = $("#contact-form #message").val();
+ if(name=="" || fromEmail=="" || subject=="" || msg==""){
+    $('#sendBtn').prop('disabled',true);
+ }
+
+
       // Add smooth scrolling to all links
   $("#sidebar a").on('click', function(event) {
 
@@ -26,11 +37,12 @@ $(document).ready(function(){
   });
 
     
-    $("#sidebar li").click(function(){
+  $("#sidebar li").click(function(){
         $("#sidebar .active").removeClass("active");
         $(this).addClass("active");
-    })
+  })
 
+   
 
 
     $(".progress").hover(function(){
@@ -50,9 +62,9 @@ $(document).ready(function(){
        }
     },2000)
 
-   function sendMail(){
+   
 
-   }
+  
 
     
 })
